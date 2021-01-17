@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    height: 80vh;
+    width: 80vw;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.ball{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+}
+
+.paddle{
+    height: 100px;
+    width: 10px;
+    background-color: black;
+    position: fixed;
+}
+
+.left{
+    top: 40vh;
+    left: 12vw;
+}
+
+.right{
+    top: 40vh;
+    right: 12vw;
+}
+
+.scorecard{
+    font-size: 40px;
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 1;
+}
+
+.separator{
+    width: 4px;
+    height: 40px;
+    background-color: black;
+}
